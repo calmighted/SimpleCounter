@@ -1,0 +1,39 @@
+.counterDiv{
+    align-items: center;
+    background-color: aqua;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+
+}
+
+.counter{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.incr{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    font-size: 5em;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    cursor: pointer;
+}
+
+.incr:hover{
+    font-size: 7em;
+}
+.incr:focus{
+    outline: yellow;
+}
+.reset{
+    font-size: 2em;
+    border: 5px black;
+    border-radius: 11px;
+}
