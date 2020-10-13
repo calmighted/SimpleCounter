@@ -13,14 +13,18 @@ class Counter extends React.Component{
       }
     
     handleIncr(){
-        this.setState({
-            counter : this.state.counter + 1
+        this.setState((prevState)=>{
+            return{
+            counter : prevState.counter + 1
+            }
         })
     }
     handleDecr(){
-        this.setState({
-            counter : this.state.counter - 1
-        });
+        this.setState((prevState,props)=>{
+            return{
+            counter : prevState.counter - 1
+        }
+    });
     };
     reset = ()=> {
         this.setState({
